@@ -37,7 +37,7 @@ let tsk4 = document.querySelector('#tsk4');
 button4.addEventListener('click', addBox);
 
 function addBox() {
-    let newBox = document.createElement('div'); // Создаём новый div
-    newBox.classList.add('box'); // Присваиваем класс "box", чтобы применить стили
-    tsk4.appendChild(newBox); // Добавляем созданный div внутрь tsk4
+    let newBox = document.createElement('div'); 
+    newBox.classList.add('box'); 
+    tsk4.appendChild(newBox); 
 }
